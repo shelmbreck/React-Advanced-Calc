@@ -1,33 +1,73 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+div {
+  margin: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.calc {
+  margin: 0;
+}
+.calc-row {
+  margin: -.2em;
+  padding: 0;
+}
+.calc-disp {
+  border:1px solid #111;
+  height: 1em;
+  width: 9.9em;
+  display: inline-block;
+  margin: 0;
+  background-color: #333;
+  border-radius: .3em .3em 0 0;
+  color:white;
+  text-align: right;
+  line-height: 4em;
+  padding:2em;
+}
+.btn {
+  border:1px solid #222;
+  height: 3em;
+  width: 3.5em;
+  display: inline-block;
+  margin: 0;
+  background-color: #666;
   color: white;
+  text-align: center;
+  vertical-align: center;
+  line-height: 3em;
+  cursor:pointer;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 500;
+  color: #ddd;
+  font-size: 1em;
+  outline: none;
 }
-
-.App-link {
-  color: #61dafb;
+.btn:active {
+  background-color: #aaa;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.zero {
+  width:5.8em;
+  height: 3em;
+  border-radius: 0 0 0 .3em;
+  text-align: left;
+  padding-left: 1.3em;
+}
+.topRow {
+  background-color: #444;
+}
+.topRow:active {
+  background-color: #666;
+}
+.red {
+  color: red;
+  
+}
+.orange {
+  background-color: orange;
+}
+.orange:active {
+  background-color: #c0871f;
+}
+.end {
+  border-radius: 0 0 .3em 0;
 }
